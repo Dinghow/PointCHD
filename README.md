@@ -3,7 +3,7 @@ PointCHD: A Point Cloud Benchmark for Congenital Heart Disease Classification an
 
 **Authors:** Dinghao Yang, Wei Gao
 
-**Notes:** Since this work is under reivew, please contact [dinghowyang@gmail](mailto:dinghowyang@gmail ) for the dataset download, and the code will be released soon.
+**Notes:** Since this work is under reivew, please contact [dinghowyang@gmail](mailto:dinghowyang@gmail ) for the dataset download.
 
 ## Abstract
 
@@ -69,3 +69,5 @@ PointManifoldv2 (Ours) |Preprint | 60.1 | 55.2 | 39.5 |56.5
 ## Acknowledgement
 
 The dataset source of PointCHD is based on [ImageCHD](https://github.com/XiaoweiXu/ImageCHD-A-3D-Computed-Tomography-Image-Dataset-for-Classification-of-Congenital-Heart-Disease), following the CC-BY license.
+
+The code of PointManifoldv2 is partially based on [PointManifold](https://openi.pcl.ac.cn/dengy02/PointManifold_dy) and [dgcnn.pytorch](https://github.com/antao97/dgcnn.pytorch), following the MIT license.
