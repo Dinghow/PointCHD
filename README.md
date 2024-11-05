@@ -1,9 +1,9 @@
 # PointCHD
-PointCHD: A Point Cloud Benchmark for Congenital Heart Disease Classification and Segmentation
+PointCHD: A Point Cloud Benchmark for Congenital Heart Disease Classification and Segmentation [JBHI 2024]
 
 **Authors:** Dinghao Yang, Wei Gao
 
-**Notes:** Since this work is under reivew, please contact [dinghowyang@gmail](mailto:dinghowyang@gmail ) for the dataset download.
+**Notes:** Please contact [dinghowyang@gmail](mailto:dinghowyang@gmail) for the dataset download.
 
 ## Abstract
 
@@ -38,7 +38,7 @@ Congenital heart disease (CHD) is one of the most common birth defects. With the
 [DGCNN](https://dl.acm.org/doi/pdf/10.1145/3326362) | ACM TOG'19  |    54.9    |    50.5    |    34.5     |     51.3     
 [PointTransformer](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhao_Point_Transformer_ICCV_2021_paper.pdf) |   ICCV'21   |    55.6    |    53.1    |    35.0     |     51.9     
 [PointManifold](https://dl.acm.org/doi/10.1145/3539611) |ACM TOMM'22 | 57.7 | 52.3 | 36.6 |53.6 
-PointManifoldv2 (Ours) |Preprint | 60.1 | 55.2 | 39.5 |56.5 
+PointManifoldv2 (Ours) |JBHI'24 | 60.1 | 55.2 | 39.5 |56.5 
 
 #### Multi-label Classification
 
@@ -51,18 +51,17 @@ PointManifoldv2 (Ours) |Preprint | 60.1 | 55.2 | 39.5 |56.5
 | [DGCNN](https://dl.acm.org/doi/pdf/10.1145/3326362)          | ACM TOG'19  |       19.5       |
 | [PointTransformer](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhao_Point_Transformer_ICCV_2021_paper.pdf) |   ICCV'21   |       22.0       |
 | [PointManifold](https://dl.acm.org/doi/10.1145/3539611)      | ACM TOMM'22 |       22.0       |
-| PointManifoldv2 (Ours)                                       |  Preprint   |       26.8       |
+| PointManifoldv2 (Ours)                                       |  JBHI'24   |       26.8       |
 
 ## Citation
 
 ```
-@misc{yang2023pointchd,
-      title={PointCHD: A Point Cloud Benchmark for Congenital Heart Disease Classification and Segmentation}, 
-      author={Dinghao Yang and Wei Gao},
-      year={2023},
-      publisher = {GitHub},
-      journal = {GitHub repository},
-      howpublished = {\url{https://github.com/Dinghow/PointCHD}},
+@article{yang2024pointchd,
+  title={PointCHD: A Point Cloud Benchmark for Congenital Heart Disease Classification and Segmentation},
+  author={Yang, Dinghao and Gao, Wei},
+  journal={IEEE Journal of Biomedical and Health Informatics},
+  year={2024},
+  publisher={IEEE}
 }
 ```
 
